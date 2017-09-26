@@ -1,6 +1,6 @@
 {
-  "name": "rancher-node",
-  "version": "0.0.11",
+  "name": "rancher-client",
+  "version": "0.1.1",
   "description": "Node client for the Rancher API",
   "main": "lib/index.js",
   "scripts": {
@@ -8,20 +8,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/himanshu28/rancher-node.git"
+    "url": "git+https://github.com/mkg20001/rancher-node.git"
   },
   "author": "Himanshu Goyal",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/himanshu28/rancher-node/issues"
+    "url": "https://github.com/mkg20001/rancher-node/issues"
   },
-  "homepage": "https://github.com/himanshu28/rancher-node#readme",
+  "homepage": "https://github.com/mkg20001/rancher-node#readme",
   "dependencies": {
-    "joi": "^7.0.0",
+    "joi": "^10.5.2",
     "request": "2.81.0"
   },
   "devDependencies": {
-    "code": "^2.0.1",
-    "lab": "^7.3.0"
+    "code": "^4.0.0",
+    "lab": "^13.1.0"
   }
 }
