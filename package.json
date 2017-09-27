@@ -19,7 +19,7 @@
   "dependencies": {
     "joi": "^10.5.2",
     "request": "2.81.0",
-    "wreck": "^13.0.3"
+    "wreck": "<=12.5.1"
   },
   "devDependencies": {
     "code": "^4.0.0",
